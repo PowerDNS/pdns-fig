@@ -1,0 +1,11 @@
+pdns:
+  build: .
+  command: echo '!!! use fig run pdns bash'
+  volumes:
+    - .:/code
+  links:
+    - mysql
+mysql:
+  image: orchardup/mysql
+  environment:
+    MYSQL_ROOT_PASSWORD: 'root'
