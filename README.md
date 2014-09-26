@@ -20,3 +20,5 @@ TODO:
 * install more tools (including stuff that right now is not packaged)
 * set up networking for recursor testing
 * switch to Ansible before the Dockerfile hits 15 lines
+* set GMYSQLHOST and similar vars so start-test-stop works without a lot of typing
+* include a configure script for 'the works'
